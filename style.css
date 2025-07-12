@@ -75,6 +75,10 @@ button {
   transition: 0.3s ease;
 }
 
+button > a {
+  text-decoration: none;
+  color: initial;
+}
 .primary {
   background-color: #2d4235;
   color: #fff;
