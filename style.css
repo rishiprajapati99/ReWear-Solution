@@ -161,3 +161,34 @@ footer {
     font-size: 1.8rem;
   }
 }
+/* Sign-In Form Styles */
+.signin-form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-top: 2rem;
+}
+
+.signin-form label {
+  font-weight: 500;
+  color: #2d4235;
+}
+
+.signin-form input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.signin-form input:focus {
+  outline: none;
+  border-color: #2d4235;
+  box-shadow: 0 0 0 2px #dbe9d2;
+}
+
+.signin-form button {
+  margin-top: 1rem;
+}
+
