@@ -1,0 +1,159 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf8f2;
+  color: #2d4235;
+  line-height: 1.6;
+  padding: 0;
+}
+
+/* Header/Navbar */
+header {
+  background-color: #fdf8f2;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2d4235;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2d4235;
+  font-weight: 500;
+}
+
+.user-icon {
+  font-size: 1.3rem;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #dbe9d2;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.primary {
+  background-color: #2d4235;
+  color: #fff;
+}
+
+.primary:hover {
+  background-color: #1c2b23;
+}
+
+.secondary {
+  background-color: #f5ede1;
+  color: #2d4235;
+  border: 1px solid #ccc;
+}
+
+.secondary:hover {
+  background-color: #e9e2d5;
+}
+
+/* Item Cards Section */
+.items-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  padding: 3rem 2rem;
+  background-color: #fff;
+}
+
+.item-card {
+  background-color: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 1rem;
+  transition: 0.3s ease;
+}
+
+.item-card:hover {
+  transform: translateY(-4px);
+}
+
+.item-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.item-card h2 {
+  font-size: 1.1rem;
+  color: #2d4235;
+  margin-bottom: 0.25rem;
+}
+
+.item-card p {
+  font-size: 0.95rem;
+  color: #4b594e;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6b7b6a;
+  padding: 1.5rem 0;
+  background-color: #fdf8f2;
+  border-top: 1px solid #ddd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  nav ul {
+    gap: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+}
