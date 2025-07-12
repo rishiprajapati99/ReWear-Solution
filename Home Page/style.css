@@ -44,6 +44,10 @@ nav a {
   font-weight: 500;
 }
 
+nav > ul > li > a:hover {
+  color: #9cd9b3;
+}
+
 .user-icon {
   font-size: 1.3rem;
 }

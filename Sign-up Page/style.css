@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fdf8f2;
+  /* background-color: #6cbb8a; */
   color: #2d4235;
   line-height: 1.6;
   padding: 0;
@@ -99,4 +99,9 @@ nav > ul > li > a:hover {
   color: white;
   border: none;
   border-radius: 10px;
+}
+
+.link {
+  color: #007BFF;
+  text-decoration: none;
 }

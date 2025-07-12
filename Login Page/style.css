@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #fdf8f2;
+  background-color: #dbe9d2;
   height: 100vh;
   /* display: flex;
   justify-content: center;
@@ -41,6 +41,10 @@ nav a {
   text-decoration: none;
   color: #2d4235;
   font-weight: 500;
+}
+
+nav > ul > li > a:hover {
+  color: #9cd9b3;
 }
 
 .body-container{
