@@ -1,0 +1,65 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+/* Container */
+.container {
+  max-width: 600px;
+  background-color: white;
+  padding: 30px;
+  margin: 40px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  color: #00796b;
+}
+
+/* Form Styling */
+.item-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.item-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.item-form button {
+  padding: 10px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item-form button:hover {
+  background-color: #004d40;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  font-size: 14px;
+  color: #777;
+}
