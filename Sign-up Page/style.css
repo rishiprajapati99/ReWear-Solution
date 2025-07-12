@@ -29,6 +29,7 @@ header {
   font-size: 1.5rem;
   font-weight: bold;
   color: #2d4235;
+  cursor: pointer;
 }
 
 nav ul {
@@ -99,6 +100,10 @@ nav > ul > li > a:hover {
   color: white;
   border: none;
   border-radius: 10px;
+}
+
+.primary:hover{
+  opacity: .87;
 }
 
 .link {
